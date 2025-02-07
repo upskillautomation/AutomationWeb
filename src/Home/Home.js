@@ -19,7 +19,7 @@ function Home() {
    const isSmallScreen = useMediaQuery("(max-width:600px)");
   
   const sliderSettings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1, // Show 3 cards at once
